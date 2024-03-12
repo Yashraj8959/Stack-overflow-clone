@@ -3,9 +3,10 @@ import { Link, NavLink } from 'react-router-dom';
 import Logo from "../../assets/logo.png";
 import Search from "../../assets/search-solid.svg";
 import Avator from "../../components/Avator/Avator";
+import { Link as RouterLink } from 'react-router-dom';
 import './Navbar.css';
 const Navbar = () => {
-    var User = null;
+    var User = 516;
   return (
     <nav>
         
@@ -15,7 +16,6 @@ const Navbar = () => {
             <a href='/' className='nav-items nav-btn '>Products</a>
             <a href='/' className='nav-items nav-btn '>For teams</a>
             
-
             <form> 
                 <input type="text" placeholder="Search..."/>  
                 <img src={Search} alt="search" width={18} className='search-icon'/>
@@ -24,8 +24,12 @@ const Navbar = () => {
                 User === null ?
                  <a href='/Auth' className='nav-items nav-links'>Log In</a> :
                  <>
-                 <a href='/' ><Avator>Y</Avator></a>
-                 <button>Log Out</button>
+                 <Avator backgroundColor="#009dff"
+                px="10px"
+                py="5px"
+                borderRadius="25%"
+                color="white" ><a href='/User' style={{color:"white", textDecoration:"none"}} >Y</a></Avator>
+                 <button className='nav-items nav-links'>Log Out</button>
                  </>
             }
 
