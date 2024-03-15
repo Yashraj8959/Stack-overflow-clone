@@ -7,7 +7,7 @@ import './Navbar.css';
 const Navbar = () => {
     var User = null;
   return (
-    <nav>
+    <nav className='main-nav'>
         
         <div className='navbar'>
             <Link to="/" className='nav-items nav-logo '><img src={Logo} alt="logo" /></Link>
