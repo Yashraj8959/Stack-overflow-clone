@@ -1,7 +1,6 @@
 import React from 'react'
 import './LeftSidebar.css'
 import { NavLink } from 'react-router-dom'
-import Globe from '../../assets/Globe.svg'
 import homeicon from '../../assets/homeicon.png'
 import questionsicon from '../../assets/questionsicon.png'
 import tagsicon from '../../assets/tagsicon.png'
