@@ -33,14 +33,7 @@ npm start
 
 ## Live Link for the website:
 
-[Click here](https://stack-overflow-manoj.netlify.app/)
+[Click here](https://stack-overlow-yashraj.netlify.app/)
 
-## Contributions
-
-Contributions are always welcomed. Anyone can contribute to this project. Contributors will be given credits.
-
-## Credits
-
-This website uses icons from font awesome.
 
 
